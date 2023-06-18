@@ -1,0 +1,407 @@
+/* first thing is to set the body margin as 0px */
+body{
+    margin: 0px;
+    font-size: 22px;
+}
+#body_header{
+background-image:url(body_header1.webp) ;
+height: 60vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+/* opacity: 0.8; */
+}
+.horizontal_list li{
+    /* for bullet marks */
+    text-decoration: none;
+    display: inline-block;
+    width: 18%;
+   margin-top: 4px;
+}
+.horizontal_list li a{
+    /* for underline */
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+#navbar li{
+    justify-content: space-between;
+}
+#navbar{
+   text-align: center;
+   margin: 2px 200px;
+margin-top: -12px;
+}
+
+.horizontal_list li a:hover{
+    text-decoration: underline;
+    color: rgb(221, 239, 255);
+}
+#myname{
+    text-align:center;
+    margin-top:35px;
+    /* margin-left: 70px; */
+    color: white;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  word-spacing: 1.1rem;
+  font-weight: bold;
+}
+.social_link li{
+    display: inline-block;
+    text-decoration: none;
+width: 4%;
+margin-top: -10px;
+margin-right: 7px;
+}
+.social_link li img{
+    width: 40px;
+    height: 40px;
+    margin:0px;
+    margin-left: -10px;
+    border-radius: 50%;
+    /* padding: 10px; */
+}
+.social_link li img:hover{
+    box-shadow: 3px 3px 6px 2px rgb(159, 215, 255);
+ 
+}
+#social{
+    text-align: center;
+}
+#social li{
+    margin: 12px;
+    margin-top: -4px;
+}
+#whattsapp{
+    margin-left: 10px;
+}
+#image img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: -90px;
+    margin-left: 30px;
+   box-shadow: 0px 0px 3px 3px rgb(186, 255, 255);
+}
+#image{
+    text-align: center;
+
+}
+#myself{
+    text-align: center;
+    margin: 15px;
+    margin-left: 30px;
+    width: 90%;
+    font-size: 22px;
+    background-color:rgb(219, 255, 255);
+    border: 0.5px solid lightgray;
+    border-radius: 15px;
+     border:2px solid aliceblue;
+/* overflow: auto; */
+}
+#myself:hover{
+
+    box-shadow: 0px 3px 10px 4px rgb(132, 255, 255);
+    background-color:rgb(183, 255, 255);
+/* border: 1px solid black; */
+    font-size: 22px;
+}
+#skills{
+   
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ background-color: #f0fff3;
+height: 60vh;
+height: auto;
+/* display: flex; */
+}
+#skills_heading{
+    font-size: 30px;
+
+}
+
+#learning_skills li{
+    width: 30%;
+    display: inline-block;
+    height: auto;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgb(219, 255, 255);
+    border: 0.5px solid lightgray;
+    border-radius: 15px;
+margin-top: 20px;
+}
+#learning_skills li:hover{
+    font-size: 24px;
+    background-color:rgb(177, 254, 254);
+border: 1.5px solid lightgray;
+}
+#contact{
+    background-image: linear-gradient(to right, #2857a4,#403066);
+    color: white;
+}
+#heading-contact{
+    display: inline-block;
+
+    font-size: 40px;
+}
+#heading-contact{
+    text-align: center;
+}
+#contactheading{
+    text-align: center;
+
+}
+#headinglogo{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+#input_details input{
+    display: block;
+    width: 80%;
+    /* color: black; */
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 55px;
+    margin-left: 70px;
+    border: 0px;
+    border-bottom: 2px solid black;
+    background-image: linear-gradient(to right, #99b4de,#b19ae8);
+/* color:red; */
+}
+#left{
+    display: inline-block;
+    /* width: 120vh; */
+    width: 60%;
+    /* border: 2px solid black; */
+    margin-left: 10px;
+}
+#right{
+    display: inline-block;
+    /* width: 100vh; */
+    /* border: 2px solid black; */
+    padding: 20px 50px 20px 50px;
+     margin-left:20px;
+
+}
+#address{
+    text-align: center;
+    /* font: 20px; */
+    font-weight: 800;
+    
+}
+#address_heading{
+font-size:35px;
+
+}
+#address_details h2{
+    font-size: 20px;
+    display: inline-block;
+}
+#submit{
+    margin-left: 200px;
+    padding: 7px 22px;
+    font-size: 22px;
+    border-radius: 4px;
+    background-color:  #2857a4;
+    color: blue;
+    background-color: lightblue;
+}
+#address_details img{
+display: inline-block;
+width: 25px;
+height: 25px;
+}
+/* education */
+#education{
+text-align: center;
+background-color:#9ea1d8;
+border-top: 8px solid white;
+border-bottom: 5px solid white;
+color: white;
+}
+#heading{
+    text-align: center;
+    
+}
+#heading img{
+    display: inline-block;
+    width:35px;
+    height: 25px;
+    margin-top: 3px;
+}
+#education-heading{
+    display: inline-block;
+    font-size: 40px;
+}
+#qualification{
+    width: 75%;
+    position: relative;
+    /* border: 2px solid black; */
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.years{
+    width: 35%;
+    position: relative;
+    /* height: 150px; */
+    height: auto;
+    /* min-height: 10px; */
+    /* border: 2px solid black; */
+    margin-top: 4px;
+    left: 5%;
+    background-color: #d2b0e6;
+    border-radius: 4px;
+}
+
+/* placing the even containers to the left */
+.years:nth-child(2n+1){
+    left: 58%;
+}
+#airplaneimg{
+    position: sticky;
+    top: 30%;
+padding: 10px;
+ z-index: 2;
+ 
+}
+
+/* achievements */
+#achievements-section{
+    text-align: center;
+background-color:#898eef;
+border-top: 8px solid white;
+border-bottom: 5px solid white;
+color: white;
+}
+#achievement-header{
+    text-align: center;
+}
+#achievement-header_img{
+    display: inline-block;
+    width:35px;
+    height: 35px;
+    margin-top: 3px;
+    border-radius: 40%;
+}
+#achievement-heading{
+    display: inline-block;
+    font-size: 40px;
+}
+#achievements{
+    width: 75%;
+    position: relative;
+    /* border: 2px solid black; */
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.medals{
+    width: 35%;
+    position: relative;
+    font-size: 18px;
+    /* height: 50px; */
+    height: auto;
+    min-height: 50px;
+    /* border: 2px solid black; */
+    margin-top: 4px;
+    left: 5%;
+    background-color: #c382e8;
+    border-radius: 20px;
+}
+.medals:nth-child(2n+1){
+    left: 58%;
+}
+#medalimg{
+    position: sticky;
+    top: 30%;
+padding: 10px;  
+height: 30px;
+width: 30px;
+border-radius: 50%;
+z-index: 1;
+}
+
+.timelinedivider{
+    position: absolute;
+    top: 50px;
+    border-right: 4px dashed white;
+    height: 80%;
+    width: 0;
+    left: 50%;
+    /* margin-bottom: 20px; */
+    z-index: 0;
+}
+@media screen and (max-width: 600px){
+    .timelinedivider{
+        left:7%;
+        top: 15%;
+    } 
+    .medals:nth-child(2n+1){
+        left: 12%;
+    }
+    .medals {
+        left: 12%;
+        width: 80%;
+        
+    }
+    .years{
+        left:12%;
+        width: 80%;
+    }
+    .years:nth-child(2n+1){
+        left: 12%;
+    }
+    #achievements{
+        left: 5%;
+    }
+    #qualificattion{
+        left: 5%;
+    }
+    #airplaneimg{
+        right: 96%;
+        /* top: 20%; */
+    }
+    #medalimg{
+        right: 94%;
+    }
+
+    #learning_skills li{
+        display: block;
+        width: 80%;
+    }
+    #submit{
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 900px){
+#navbar{
+    text-align: left;;
+   margin-left: 0px;
+}
+#navbar li{
+    display: block;
+  margin-left: 0px;
+}
+#horizontal_list{
+    margin-left: 0px;
+}
+#myname{
+    margin-top: -130px;
+    margin-left: 120px;
+}
+#social{
+    margin-left: 100px;
+}
+#social li{
+    margin-left: 25px;
+}
+/* section{
+    height: auto;
+} */
+}
